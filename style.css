@@ -1,0 +1,341 @@
+/* ----- HOME PAGE ----- */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Serif Balinese', serif;
+}
+
+
+.lux{
+	height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(background.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+
+.logo{
+	width: 250px;
+	padding-left: 60px;
+	padding-top: 20px;
+	float: left;
+}
+
+
+.navbar{
+	float: left;
+	padding-left: 50px;
+	padding-top: 70px;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 20px;
+	position: relative;
+}
+.navbar ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+}
+.navbar ul li::after{
+	content: "";
+	width: 0%;
+	height: 1px;
+	background: #fff;
+	display: block;
+	margin: auto;
+	transition: 0.3s;
+}
+.navbar ul li:hover::after{
+	width: 100%;
+}
+
+
+
+.text{
+	color: #fff;
+	text-align: left;
+	padding-top: 200px;
+	padding-left: 60px;
+}
+.text h2{
+	font-size: 80px;
+}
+.text p{
+	font-size: 30px;
+}
+.text img{
+	border-radius: 5%;
+	position: absolute;
+	top: 57%;
+  	right: 150px;
+  	transform: translateY(-50%);
+}
+
+
+.icon{
+	padding-left: 40px;
+	padding-top: 30px;
+}
+.icon img:hover{
+	opacity: 0.2;
+	transition: 0.5s;
+}
+.icon li{
+	list-style: none;
+	padding: 8px 12px;
+	display: inline-block;
+	position: relative;
+}
+
+
+
+
+
+
+
+/* ----- ABOUT PAGE ----- */
+.abt{
+	padding-top: 230px;
+	padding-bottom: 100px;	
+	text-align: center;
+	background-color: black;
+}
+.abt h1{
+	font-size: 60px;
+	color: white;
+}
+
+.greeting{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	background-color: #0d0d0d;
+	background-size: cover;
+	padding-top: 240px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.more{
+	padding-top: 290px;
+	padding-left: 530px;
+	background-color: #0d0d0d;
+	background-size: cover;
+	height: 180vh;
+}
+.more h5{
+	font-size: 50px;
+	color: white;
+}
+.more p{
+	font-size: 20px;
+	color: white;
+	margin-right: 20px;
+}
+.more img{
+	border-radius: 3%;
+	position: absolute;
+	top: 220%;
+  	left: 35px;
+  	transform: translateY(-50%);
+}
+.qoute{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	background-color: #0d0d0d;
+	background-size: cover;
+	padding-bottom: 200px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.btn{
+	margin-left: 260px;
+	margin-top: 20px;
+	background-color: transparent;
+	border: 2px solid white;
+	color: white;
+	padding: 12px 20px;
+	border-radius: 3px;
+	font-size: 16px;
+	text-align: center;
+	transition: 0.5s;
+}
+.btn:hover{
+	background: white;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+/* ----- PORTFOLIO PAGE ----- */
+.port{
+	padding-top: 230px;
+	padding-bottom: 100px;	
+	text-align: center;
+	background-color: black;
+}
+.port h1{
+	font-size: 60px;
+	color: white;
+}
+.works{
+	text-align: left;
+	color: white;
+	background-color: #0d0d0d;
+	background-size: cover;
+	padding-top: 200px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+}
+.works h1{
+	font-size: 70px;
+}
+.works p{
+	font-size: 40px;
+}
+.column {
+	padding-top: 20px;
+  	float: left;
+  	width: 33.33%;
+  	margin-right: 140px;
+}
+
+.row::after {
+  	content: "";
+  	clear: both;
+  	display: table;
+}
+.link{
+	width: 250px;
+	padding-left: 60px;
+	padding-top: 20px;
+	float: left;
+}
+.link img:hover{
+	opacity: 0.2;
+	transition: 0.5s;
+}
+
+
+
+
+
+
+
+/* ----- BLOG PAGE ----- */
+.blog{
+	padding-top: 230px;
+	padding-bottom: 100px;	
+	text-align: center;
+	background-color: black;
+}
+.blog h1{
+	font-size: 60px;
+	color: white;
+}
+.tutorial{
+	text-align: left;
+	color: white;
+	background-color: #0d0d0d;
+	background-size: cover;
+	padding-top: 200px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+}
+.tutorial h1{
+	font-size: 70px;
+}
+.tutorial h5{
+	font-size: 40px;
+}
+.tutorial p{
+	font-size: 25px;
+}
+.tips{
+	font-size: 60px;	
+}
+.arts{
+	background-color: transparent;
+	border: 2px solid white;
+	color: white;
+	padding: 12px 20px;
+	border-radius: 3px;
+	font-size: 16px;
+	text-align: center;
+	transition: 0.5s;
+}
+.arts:hover{
+	background: white;
+	color: black;
+}
+
+
+
+
+
+/* ----- CONTACT PAGE ----- */
+.cont{
+	padding-top: 230px;
+	padding-bottom: 100px;	
+	text-align: center;
+	background-color: black;
+}
+.cont h1{
+	font-size: 60px;
+	color: white;
+}
+
+.con{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	background-color: #0d0d0d;
+	background-size: cover;
+	padding-top: 200px;
+	padding-bottom: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.soc{
+	background-color: #0d0d0d;
+	background-size: cover;
+	text-align: center;
+
+
+}
+.soc img:hover{
+	opacity: 0.2;
+	transition: 0.5s;
+}
+.soc li{
+	list-style: none;
+	padding: 8px 12px;
+	display: inline-block;
+	position: relative;
+}
+
+.last{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	background-color: #0d0d0d;
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
